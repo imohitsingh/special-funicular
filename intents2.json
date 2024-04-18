@@ -1,0 +1,116 @@
+{
+   "intents": [
+      {
+         "tag": "get_headlines",
+         "patterns": [
+            "What are the latest headlines?",
+            "Show me the top news",
+            "Give me the latest news updates",
+			"headlines"
+         ],
+         "responses": [
+            "Sure, let me fetch the latest headlines for you."
+         ],
+         "context": ""
+      },
+      {
+         "tag": "search_by_topic",
+         "patterns": [
+            "Find news about",
+            "Show me articles on [topic]"
+         ],
+         "responses": [
+            "Sure, let me find some news about {topic}."
+         ],
+         "context": ""
+      },
+      {
+         "tag": "search_by_source",
+         "patterns": [
+            "Show me articles from [source]",
+            "What's new on [source]"
+         ],
+         "responses": [
+            "Sure, let me find news articles from {source}."
+         ],
+         "context": ""
+      },
+      {
+         "tag": "get_news_by_category",
+         "patterns": [
+            "What's happening in [category]",
+            "Find {category} news"
+         ],
+         "responses": [
+            "Sure, let me find some {category} news."
+         ],
+         "context": ""
+      },
+      {
+         "tag": "get_news_by_location",
+         "patterns": [
+            "Show me news from [location]",
+            "What's the latest in [location]"
+         ],
+         "responses": [
+            "Sure, let me find some news from {location}."
+         ],
+         "context": ""
+      },
+      {
+         "tag": "get_trending_news",
+         "patterns": [
+            "What's trending?",
+            "Show me trending news"
+         ],
+         "responses": [
+            "Sure, let me find some trending news for you."
+         ],
+         "context": ""
+      },
+      {
+         "tag": "get_news_by_time",
+         "patterns": [
+            "Show me news from yesterday",
+            "What happened last week?"
+         ],
+         "responses": [
+            "Sure, let me find some news from {time}."
+         ],
+         "context": ""
+      },
+      {
+         "tag": "save_article",
+         "patterns": [
+            "Save this article",
+            "Bookmark this news"
+         ],
+         "responses": [
+            "Article saved!"
+         ],
+         "context": ""
+      },
+      {
+         "tag": "get_detailed_news",
+         "patterns": [
+            "Tell me more about this article",
+            "Give me details of this news"
+         ],
+         "responses": [
+            "Sure, let me provide more details about this article."
+         ],
+         "context": ""
+      },
+      {
+         "tag": "provide_feedback",
+         "patterns": [
+            "I have feedback",
+            "I want to give feedback"
+         ],
+         "responses": [
+            "Sure, feel free to provide your feedback."
+         ],
+         "context": ""
+      }
+   ]
+}
